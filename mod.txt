@@ -1,0 +1,26 @@
+{
+    "name": "WeaponFunction",
+    "description": "Weapon Imporvement",
+    "image": "shot.png",
+    "author": "NatholDallas",
+    "contact": "nil",
+    "version": "1.4",
+    "updates": [
+        {
+            "identifier": "WeaponFunction",
+            "host": {
+                "meta": "https://gitlab.com/NatholDallas/improve-your-weapon-ammo-pickup/-/raw/main/meta.json"
+            }
+        }
+    ],
+    "hooks": [
+        {
+            "hook_id": "lib/tweak_data/weapontweakdata",
+            "script_path": "weapontweakdata_inject.lua"
+        },
+        {
+            "hook_id": "lib/tweak_data/weaponfactorytweakdata",
+            "script_path": "weaponfactorytweakdata_inject.lua"
+        }
+    ]
+}
