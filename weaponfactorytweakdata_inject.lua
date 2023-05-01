@@ -11,12 +11,10 @@ end
 
 function WeaponFactoryTweakData:hcar_inject()
     self.parts.wpn_fps_lmg_hcar_body_conversionkit.forbids = {
-        -- "wpn_fps_lmg_hcar_suppressor",
         "wpn_fps_upg_ns_ass_smg_firepig",
         "wpn_fps_upg_ns_ass_smg_stubby",
         "wpn_fps_upg_ns_ass_smg_tank",
         "wpn_fps_lmg_kacchainsaw_ns_muzzle",
-        -- "wpn_fps_lmg_kacchainsaw_ns_suppressor",
         "wpn_fps_upg_ns_ass_smg_large",
         "wpn_fps_upg_ns_ass_smg_medium",
         "wpn_fps_upg_ns_ass_smg_small",
@@ -47,12 +45,10 @@ end
 function WeaponFactoryTweakData:kacchainsaw_inject()
     self.parts.wpn_fps_lmg_kacchainsaw_conversionkit.forbids = {
         "wpn_fps_lmg_kacchainsaw_ns_muzzle",
-        -- "wpn_fps_lmg_kacchainsaw_ns_suppressor",
         "wpn_fps_lmg_kacchainsaw_b_short",
         "wpn_fps_lmg_kacchainsaw_b_long",
         "wpn_fps_lmg_kacchainsaw_sling",
         "wpn_fps_lmg_kacchainsaw_mag_b",
-        -- "wpn_fps_lmg_hcar_suppressor",
         "wpn_fps_upg_ns_ass_smg_firepig",
         "wpn_fps_upg_ns_ass_smg_stubby",
         "wpn_fps_upg_ns_ass_smg_tank",

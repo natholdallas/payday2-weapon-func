@@ -14,7 +14,7 @@ function WeaponTweakData:inject_lmg()
 
     local high_pickup = {16/margin, 18/margin}
     local low_pickup = {13/margin, 15/margin}
-    local special_pickup = {6/margin, 7/margin}
+    local special_pickup = {5/margin, 6/margin}
 
     ---[[
         self.rpk.AMMO_PICKUP = low_pickup
