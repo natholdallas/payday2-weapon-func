@@ -1,0 +1,8 @@
+# vscode folder
+.vscode/
+
+# IntelliJ IDEA folder
+.idea/
+
+# stage file for myself in workspace
+resources/

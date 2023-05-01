@@ -1,10 +1,9 @@
 {
     "name": "WeaponFunction",
-    "description": "Weapon Imporvement",
-    "image": "shot.png",
+    "description": "Blance weapon data be imporve yourself",
+    "image": "environment/cover.png",
     "author": "NatholDallas",
-    "contact": "nil",
-    "version": "1.4",
+    "version": "0.1",
     "updates": [
         {
             "identifier": "WeaponFunction",
