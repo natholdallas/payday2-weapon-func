@@ -2,7 +2,7 @@
   {
       "ident" : "weaponfunction",
       "version" : "0.1",
-      "download_url" : "https://github.com/NatholDallas/PAYDAY2-WeaponFunction/archive/weaponfunction.zip",
-      "patchnotes_url" : "https://github.com/NatholDallas/PAYDAY2-WeaponFunction/releases/latest"
+      "download_url" : "https://github.com/NatholDallas/PAYDAY2-WeaponFunction",
+      "patchnotes_url" : "https://github.com/NatholDallas/PAYDAY2-WeaponFunction/archive/refs/heads/master.zip"
   }
 ]

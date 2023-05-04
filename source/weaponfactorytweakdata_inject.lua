@@ -47,7 +47,6 @@ function WeaponFactoryTweakData:kacchainsaw_inject()
         "wpn_fps_lmg_kacchainsaw_ns_muzzle",
         "wpn_fps_lmg_kacchainsaw_b_short",
         "wpn_fps_lmg_kacchainsaw_b_long",
-        "wpn_fps_lmg_kacchainsaw_sling",
         "wpn_fps_lmg_kacchainsaw_mag_b",
         "wpn_fps_upg_ns_ass_smg_firepig",
         "wpn_fps_upg_ns_ass_smg_stubby",

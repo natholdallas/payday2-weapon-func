@@ -5,4 +5,4 @@
 .idea/
 
 # stage file for myself in workspace
-resources/
+mod.json

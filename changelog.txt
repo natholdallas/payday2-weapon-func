@@ -1,0 +1,7 @@
+UpdateLog
+
+新增主手特殊武器的部分武器数据更改
+待完成: 双持系列/步枪/霰弹枪
+
+Author::NatholDallas
+By 2023.5.1
