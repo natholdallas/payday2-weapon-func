@@ -8,7 +8,7 @@
         {
             "identifier": "weapon_function_advice_master",
             "host": {
-                "meta": "https://raw.githubusercontent.com/NatholDallas/PAYDAY2-WeaponFunction/master/meta/meta.json"
+                "meta": "https://raw.githubusercontent.com/NatholDallas/PAYDAY2-WeaponFunction/master/meta.json"
             }
         }
     ],
