@@ -1,14 +1,14 @@
 {
     "name": "WeaponFunction",
     "description": "Blance weapon data be imporve yourself",
-    "image": "environment/cover.png",
+    "image": "images/cover.png",
     "author": "NatholDallas",
     "version": "0.1",
     "updates": [
         {
-            "identifier": "WeaponFunction",
+            "identifier": "weaponfunction",
             "host": {
-                "meta": "https://gitlab.com/NatholDallas/improve-your-weapon-ammo-pickup/-/raw/main/meta.json"
+                "meta": "https://raw.githubusercontent.com/NatholDallas/PAYDAY2-WeaponFunction/master/meta/meta.json"
             }
         }
     ],
