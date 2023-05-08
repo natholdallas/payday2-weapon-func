@@ -4,5 +4,5 @@
 # IntelliJ IDEA folder
 .idea/
 
-# stage file for myself in workspace
-mod.json
+# test folder
+test/
