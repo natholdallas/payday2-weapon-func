@@ -164,11 +164,11 @@ function WeaponTweakData:inject_fk_wpn_special()
     self.china.AMMO_PICKUP = grenade_pickup
 
     -- MA-17 火焰喷射器
-    self.system = flamethrower_pickup
+    self.system.AMMO_PICKUP = flamethrower_pickup
 
     -- Arbiter 榴弹发射器
-    self.arbiter = grenade_pickup
+    self.arbiter.AMMO_PICKUP = grenade_pickup
 
     -- Basilisk 3V 榴弹发射器
-    self.ms3gl = grenade_pickup
+    self.ms3gl.AMMO_PICKUP = grenade_pickup
 end
