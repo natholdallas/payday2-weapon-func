@@ -56,76 +56,76 @@ function WeaponTweakData:inject_pk_akimbo_smg()
     local low = { 3.8 / margin, 9.2 / margin }
 
     -- 双持 Krinkov 冲锋枪
-    self.x_akmsu = medium
+    self.x_akmsu.AMMO_PICKUP = medium
 
     -- 双持 Swedish K 冲锋枪
-    self.x_m45 = low
+    self.x_m45.AMMO_PICKUP = low
 
     -- 双持 Compact-5 冲锋枪
-    self.x_mp5 = high
+    self.x_mp5.AMMO_PICKUP = high
 
     -- 双持 SpecOps 冲锋枪
-    self.x_mp7 = medium
+    self.x_mp7.AMMO_PICKUP = medium
 
     -- 双持  Heather 冲锋枪
-    self.x_sr2 = medium
+    self.x_sr2.AMMO_PICKUP = medium
 
     -- 双持 CR 805B 冲锋枪
-    self.x_hajk = low
+    self.x_hajk.AMMO_PICKUP = low
 
     -- 双持 Mark 10 冲锋枪
-    self.x_mac10 = medium
+    self.x_mac10.AMMO_PICKUP = medium
 
     -- 双持夹克男爱枪
-    self.x_cobray = medium
+    self.x_cobray.AMMO_PICKUP = medium
 
     -- 双持 Chicago Typewriter 冲锋枪
-    self.x_m1928 = medium
+    self.x_m1928.AMMO_PICKUP = medium
 
     -- 双持 Miyaka 10 Special 冲锋枪
-    self.x_pm9 = high
+    self.x_pm9.AMMO_PICKUP = high
 
     -- 双持 Cobra 冲锋枪
-    self.x_scorpion = high
+    self.x_scorpion.AMMO_PICKUP = high
 
     -- Micro Uzi 冲锋枪
-    self.x_baka = high
+    self.x_baka.AMMO_PICKUP = high
 
     -- 双持 CMP 冲锋枪
-    self.x_mp9 = high
+    self.x_mp9.AMMO_PICKUP = high
 
     -- 双持 Para 冲锋枪
-    self.x_olympic = medium
+    self.x_olympic.AMMO_PICKUP = medium
 
     -- 双持 Jackal 冲锋枪
-    self.x_schakal = low
+    self.x_schakal.AMMO_PICKUP = low
 
     -- 双持 Signature 冲锋枪
-    self.x_shepheard = high
+    self.x_shepheard.AMMO_PICKUP = high
 
     -- 双持 AK Gen 21 Tactical 冲锋枪
-    self.x_vityaz = medium
+    self.x_vityaz.AMMO_PICKUP = medium
 
     -- 双持 Blaster 9mm 冲锋枪
-    self.x_tec9 = high
+    self.x_tec9.AMMO_PICKUP = high
 
     -- 双持 Kobus 90 冲锋枪
-    self.x_p90 = high
+    self.x_p90.AMMO_PICKUP = high
 
     -- 双持 Kross Vertex 冲锋枪
-    self.x_polymer = high
+    self.x_polymer.AMMO_PICKUP = high
 
     -- 双持 Tatonka 冲锋枪
-    self.x_coal = low
+    self.x_coal.AMMO_PICKUP = low
 
     -- 双持 Patchett L2A1 冲锋枪
-    self.x_sterling = low
+    self.x_sterling.AMMO_PICKUP = low
 
     -- 双持 Uzi 冲锋枪
-    self.x_uzi = low
+    self.x_uzi.AMMO_PICKUP = low
 
     -- 双持 MP40 冲锋枪
-    self.x_erma = low
+    self.x_erma.AMMO_PICKUP = low
 end
 
 function WeaponTweakData:inject_pk_wpn_special()
