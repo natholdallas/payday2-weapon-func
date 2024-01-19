@@ -1,13 +1,23 @@
-# Weapon Fix-提升你在Payday中的游戏体验模组 | 🥰
+# Weapon Fix-提升你在 Payday 中的游戏体验模组 | 🥰
 
 ## 他修改了什么? | 🍚
 
 - 修改部分武器的配件限制数据
 - 修改武器的部分数据
 
-> 修改自原版PAYDAY2中的两个文件
-> `lib/tweakdata/weaponfactorytweakdata`
-> `lib/tweakdata/weapontweakdata`
+> 修改自原版 PAYDAY2 中的两个文件
+> `lib/tweakdata/weaponfactorytweakdata` > `lib/tweakdata/weapontweakdata`
+
+## Test 目录
+
+如果你想切换到 Test 中的武器平衡 2.0 测试, 请在 mod.txt 的 hooks 键下数组为 1 索引的值中修改为
+
+```json
+{
+  "hook_id": "lib/tweak_data/weapontweakdata",
+  "script_path": "test/weapontweakdata_inject.lua"
+}
+```
 
 ## 致谢 | 📄
 

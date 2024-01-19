@@ -1,10 +1,11 @@
---注释配合 More Weapon Stats 模组看--
+-- 注释配合 More Weapon Stats 模组看--
 local old_init = WeaponTweakData.init
-local margin = 1.35
+local merge = 1.35
 
 ---@diagnostic disable-next-line: duplicate-set-field
 function WeaponTweakData:init(tweak_data)
     old_init(self, tweak_data)
+
     -- primary
     self:inject_pk_lmg()
     self:inject_pk_akimbo_smg()
@@ -15,45 +16,45 @@ function WeaponTweakData:init(tweak_data)
 end
 
 function WeaponTweakData:inject_pk_lmg()
-    local high = { 18 / margin, 23 / margin }
-    local low = { 17 / margin, 21 / margin }
-    local special = { 7 / margin, 7.5 / margin }
+    local high = { 18 / merge, 23 / merge }
+    local low = { 17 / merge, 21 / merge }
+    local special = { 4 / merge, 5.5 / merge }
 
-    -- RPK轻机枪
+    -- RPK
     self.rpk.AMMO_PICKUP = low
 
-    -- KSP 58轻机枪
+    -- KSP 58
     self.par.AMMO_PICKUP = high
 
-    -- M60轻机枪
+    -- M60
     self.m60.CLIP_AMMO_MAX = 200
     self.m60.NR_CLIPS_MAX = 2
     self.m60.AMMO_MAX = self.m60.CLIP_AMMO_MAX * self.m60.NR_CLIPS_MAX
     self.m60.AMMO_PICKUP = low
 
-    -- SG Versteckt 51D 轻机枪
+    -- SG Versteckt 51D
     self.hk51b.AMMO_PICKUP = low
 
-    -- Campbell 74轻机枪
+    -- Campbell 74
     self.kacchainsaw.AMMO_PICKUP = special
 
-    -- KSP轻机枪
+    -- KSP
     self.m249.AMMO_PICKUP = high
 
-    -- Akron HC 轻机枪
+    -- Akron HC
     self.hcar.AMMO_PICKUP = special
 
-    -- Buzzsaw 42轻机枪
+    -- Buzzsaw 42
     self.mg42.AMMO_PICKUP = high
 
-    -- Brenner-21轻机枪
+    -- Brenner-21
     self.hk21.AMMO_PICKUP = low
 end
 
 function WeaponTweakData:inject_pk_akimbo_smg()
-    local high = { 5.8 / margin, 16 / margin }
-    local medium = { 4.5 / margin, 11 / margin }
-    local low = { 3.8 / margin, 9.2 / margin }
+    local high = { 5.8 / merge, 16 / merge }
+    local medium = { 4.5 / merge, 11 / merge }
+    local low = { 3.8 / merge, 9.2 / merge }
 
     -- 双持 Krinkov 冲锋枪
     self.x_akmsu.AMMO_PICKUP = medium
@@ -129,10 +130,10 @@ function WeaponTweakData:inject_pk_akimbo_smg()
 end
 
 function WeaponTweakData:inject_pk_wpn_special()
-    local grenade_pickup = { 0.45 / margin, 0.65 / margin }
-    local flamethrower_pickup = { 9 / margin, 18 / margin }
-    local lmg_high_pickup = { 23 / margin, 35 / margin }
-    local lmg_low_pickup = { 18.5 / margin, 35 / margin }
+    local grenade_pickup = { 0.45 / merge, 0.65 / merge }
+    local flamethrower_pickup = { 9 / merge, 18 / merge }
+    local lmg_high_pickup = { 23 / merge, 35 / merge }
+    local lmg_low_pickup = { 18.5 / merge, 35 / merge }
 
     -- XL 5.56速射机枪
     self.shuno.AMMO_PICKUP = lmg_high_pickup
@@ -154,8 +155,8 @@ function WeaponTweakData:inject_pk_wpn_special()
 end
 
 function WeaponTweakData:inject_fk_wpn_special()
-    local grenade_pickup = { 0.45 / margin, 0.65 / margin }
-    local flamethrower_pickup = { 9 / margin, 18 / margin }
+    local grenade_pickup = { 0.45 / merge, 0.65 / merge }
+    local flamethrower_pickup = { 9 / merge, 18 / merge }
 
     -- Compact 40mm 榴弹发射器
     self.slap.AMMO_PICKUP = grenade_pickup

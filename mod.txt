@@ -3,7 +3,7 @@
     "description": "Blance weapon data be imporve yourself",
     "image": "images/cover.png",
     "author": "NatholDallas",
-    "version": "0.2",
+    "version": "0.3",
     "updates": [
         {
             "identifier": "weapon_function_advice_master",
@@ -14,12 +14,12 @@
     ],
     "hooks": [
         {
-            "hook_id": "lib/tweak_data/weapontweakdata",
-            "script_path": "source/weapontweakdata_inject.lua"
-        },
-        {
             "hook_id": "lib/tweak_data/weaponfactorytweakdata",
             "script_path": "source/weaponfactorytweakdata_inject.lua"
+        },
+        {
+            "hook_id": "lib/tweak_data/weapontweakdata",
+            "script_path": "source/weapontweakdata_inject.lua"
         }
     ]
 }
