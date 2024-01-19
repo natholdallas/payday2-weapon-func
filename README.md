@@ -1,4 +1,4 @@
-# Weapon Fix-提升你在 Payday 中的游戏体验模组 | 🥰
+# Weapon Function-提升你在 Payday 中的游戏体验模组 | 🥰
 
 ## 他修改了什么? | 🍚
 

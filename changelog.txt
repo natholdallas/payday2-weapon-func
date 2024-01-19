@@ -1,7 +1,2 @@
-UpdateLog
-
-新增副手特殊武器的数据修改
-以及主手的双持冲锋枪系的所有数据
-
-Author::NatholDallas
+Author: NatholDallas
 By 2023.5.8
