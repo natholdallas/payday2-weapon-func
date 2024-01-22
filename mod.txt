@@ -1,9 +1,9 @@
 {
     "name": "WeaponFunction",
     "description": "Blance weapon data be imporve yourself",
-    "image": "images/cover.png",
+    "image": "assets/cover.png",
     "author": "NatholDallas",
-    "version": "0.3",
+    "version": "0.4",
     "updates": [
         {
             "identifier": "weapon_function_advice_master",
