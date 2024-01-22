@@ -15,11 +15,11 @@
     "hooks": [
         {
             "hook_id": "lib/tweak_data/weaponfactorytweakdata",
-            "script_path": "source/weaponfactorytweakdata_inject.lua"
+            "script_path": "src/weaponfactorytweakdata_inject.lua"
         },
         {
             "hook_id": "lib/tweak_data/weapontweakdata",
-            "script_path": "source/weapontweakdata_inject.lua"
+            "script_path": "src/weapontweakdata_inject.lua"
         }
     ]
 }
