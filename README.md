@@ -2,8 +2,7 @@
 
 ## 他修改了什么? | 🍚
 
-- 修改部分武器的配件限制数据
-- 修改武器的部分数据
+- 仅修改武器的捡弹量
 
 ## 注入的文件
 
@@ -18,10 +17,6 @@ require("lib/tweakdata/weapontweakdata")
 
 ```json
 "hooks": [
-    {
-        "hook_id": "lib/tweak_data/weaponfactorytweakdata",
-        "script_path": "src/weaponfactorytweakdata_inject.lua"
-    },
     {
         "hook_id": "lib/tweak_data/weapontweakdata",
         "script_path": "cheat/weapontweakdata_inject.lua"

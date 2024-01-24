@@ -2,20 +2,20 @@ local inject = WeaponFactoryTweakData.init
 
 ---@diagnostic disable-next-line: duplicate-set-field
 function WeaponFactoryTweakData:init()
-
     inject(self)
     self:hcar_inject()
     self:kacchainsaw_inject()
-
 end
 
 function WeaponFactoryTweakData:hcar_inject()
     self.parts.wpn_fps_lmg_hcar_body_conversionkit.forbids = {
+        -- "wpn_fps_lmg_hcar_suppressor",
         "wpn_fps_upg_ns_ass_smg_firepig",
         "wpn_fps_upg_ns_ass_smg_stubby",
         "wpn_fps_upg_ns_ass_smg_tank",
         "wpn_fps_lmg_kacchainsaw_ns_muzzle",
-        "wpn_fps_upg_ns_ass_smg_large",
+        -- "wpn_fps_lmg_kacchainsaw_ns_suppressor",
+        -- "wpn_fps_upg_ns_ass_smg_large",
         "wpn_fps_upg_ns_ass_smg_medium",
         "wpn_fps_upg_ns_ass_smg_small",
         "wpn_fps_upg_ass_ns_linear",
@@ -40,23 +40,30 @@ function WeaponFactoryTweakData:hcar_inject()
         "wpn_fps_upg_ns_ass_smg_v6",
         "wpn_fps_lmg_hk51b_ns_jcomp"
     }
+    self.parts.wpn_fps_lmg_hcar_body_conversionkit.custom_stats.ammo_pickup_min_mul = 1.2
+    self.parts.wpn_fps_lmg_hcar_body_conversionkit.custom_stats.ammo_pickup_max_mul = 1.0
 end
 
 function WeaponFactoryTweakData:kacchainsaw_inject()
     self.parts.wpn_fps_lmg_kacchainsaw_conversionkit.forbids = {
         "wpn_fps_lmg_kacchainsaw_ns_muzzle",
+        -- "wpn_fps_lmg_kacchainsaw_ns_suppressor",
         "wpn_fps_lmg_kacchainsaw_b_short",
         "wpn_fps_lmg_kacchainsaw_b_long",
+        "wpn_fps_lmg_kacchainsaw_sling",
         "wpn_fps_lmg_kacchainsaw_mag_b",
+        -- "wpn_fps_lmg_hcar_suppressor",
         "wpn_fps_upg_ns_ass_smg_firepig",
         "wpn_fps_upg_ns_ass_smg_stubby",
         "wpn_fps_upg_ns_ass_smg_tank",
-        "wpn_fps_upg_ns_ass_smg_large",
-        "wpn_fps_upg_ns_ass_smg_medium",
-        "wpn_fps_upg_ns_ass_smg_small",
+        -- "wpn_fps_upg_ns_ass_smg_large",
+        -- "wpn_fps_upg_ns_ass_smg_medium",
+        -- "wpn_fps_upg_ns_ass_smg_small",
         "wpn_fps_upg_ass_ns_linear",
         "wpn_fps_upg_ass_ns_surefire",
         "wpn_fps_upg_ass_ns_battle",
         "wpn_fps_upg_ass_ns_jprifles"
     }
+    self.parts.wpn_fps_lmg_kacchainsaw_conversionkit.custom_stats.ammo_pickup_min_mul = 1.8
+    self.parts.wpn_fps_lmg_kacchainsaw_conversionkit.custom_stats.ammo_pickup_max_mul = 1.8
 end
